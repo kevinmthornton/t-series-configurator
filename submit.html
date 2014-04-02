@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>ATCA Configurator</title>
+<link href="css/configurator.css" rel="stylesheet">
+</head>
+<body>
+
+<div id="mainContainer">
+
+	<div id="dataSheetBox">
+		<h1>View the Datasheets<br />for your configuration</h1>
+		<div id="dataSheetBoxList">
+			Datasheet<br />
+			Datasheet<br />
+			Datasheet<br />
+		</div>
+	</div>
+	
+	<div id="submissionFormBox">
+		<h1>Send your configuration<br />to our Sales Team</h1>
+		<br clear="all" />
+		<form>
+			<p class="formLabel">Name</p><input id="formName" type="text" /><br clear="all" />
+			<p class="formLabel">Email</p><input id="formEmail" type="text" /><br clear="all" />
+			<p class="formLabel">Region</p><div class="formRegion"><select>
+				<option>- Select -</option>
+				<option>First</option>
+				<option>Second</option>
+				<option>Third</option>
+			</select></div>
+			<br clear="all">
+			<br clear="all">
+			<br clear="all">
+			<div id="sendButton"><a href="#" id="sendConfig"><img src="images/btn-send.png" width="152" height="47" alt="" border="0"></a></div>
+		</form>
+	</div>
+
+</div>
+
+<!-- 
+
+I want a page that has four different blades(PP81, 7240, etc...) that have the same blade stacked up on top of each other up to10 for large and 4 for small. When you pull one off and drag it over to the chassis, it is taken from that stack. When you remove it from the chassis, it is put back in it's stack. The current configuration will show up in a panel below the chassis and will display what is currently configured. The optional software will also be draggable onto the chassis and show up below in the config. Once the customer is happy with there configuration, it submits to the next page where a form is available to send this config to a insides sales rep based on region. Also present will be the datasheets from the blades that they used in the config.
+
+-->
+</body>
+</html>

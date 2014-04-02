@@ -1,0 +1,228 @@
+<!-- 
+Here are the docs for this
+http://api.jqueryui.com/droppable/ 
+
+TO DO:
+-->
+ 
+  <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+  <script src="http://code.jquery.com/ui/1.10.0/jquery-ui.js"></script>
+  <link rel="stylesheet" href="/z_includes/t-series-configurator/css/configurator-pro.css" />
+  <script src="/z_includes/t-series-configurator/js/configurator-small-form.js"></script>
+  
+<div id="mainContainer">
+
+<div id="instruction2">Use the green + to add blades</div>
+<div id="instruction3">Use the red X to remove blades</div>
+<br clear="all">
+ <!-- description DIV's -->
+<div id="pp81Description">
+	<b>PP81</b><br>
+	Description pp81 Description pp81 Description pp81 Description pp81 Description pp81 Description pp81 Description pp81 Description.
+</div>
+<div id="xe100Description">
+	<b>XE100</b><br>
+	Description Description Description Description Description Description.
+</div>
+<div id="a7240Description">
+	<b>7240</b><br>
+	Description Description Description Description Description Description.
+</div>
+<div id="z4648Description">
+	<b>4648</b><br>
+	Description Description Description Description Description Description.
+</div>
+<div id="bladeContainer">
+
+	<div id="bladeStacks">
+		
+		<div id="a2340Main">
+			<h5 class="ui-widget-header">A2340</h5>
+			<ul id="a2340" class="a2340 ui-helper-reset ui-helper-clearfix">
+				<li class="stacking" id="a2340ID">
+					<img src="http://staging.radisys.com/z_includes/t-series-configurator/images/6206-a2340.png" alt="a2340" width="320" height="30" />
+					<a href="link/to/trash/script/when/we/have/js/off" title="Add This" class="ui-icon ui-icon-plus">Add Blade</a>
+				</li>
+			</ul>
+		</div>
+		
+	     <div id="pp81Main">
+	     	<h5 class="ui-widget-header">PP81</h5>
+			<ul id="pp81" class="pp81 ui-helper-reset ui-helper-clearfix">
+	          <li class="stacking" id="pp81ID">
+	            <img src="http://staging.radisys.com/z_includes/t-series-configurator/images/6206-pp81.png" alt="PP81" width="320" height="30" />
+	            <a href="link/to/trash/script/when/we/have/js/off" title="Add This" class="ui-icon ui-icon-plus">Add Blade</a>
+	          </li>
+	          <li class="stacking" id="pp81ID">
+	            <img src="http://staging.radisys.com/z_includes/t-series-configurator/images/6206-pp81.png" alt="PP81" width="320" height="30"  />
+	            <a href="link/to/trash/script/when/we/have/js/off" title="Add This" class="ui-icon ui-icon-plus">Add Blade</a>
+	          </li>
+	          <li class="stacking" id="pp81ID">
+	            <img src="http://staging.radisys.com/z_includes/t-series-configurator/images/6206-pp81.png" alt="PP81" width="320" height="30"  />
+	            <a href="link/to/trash/script/when/we/have/js/off" title="Add This" class="ui-icon ui-icon-plus">Add Blade</a>
+	          </li>
+	          <li class="stacking" id="pp81ID">
+	            <img src="http://staging.radisys.com/z_includes/t-series-configurator/images/6206-pp81.png" alt="PP81" width="320" height="30"  />
+	            <a href="link/to/trash/script/when/we/have/js/off" title="Add This" class="ui-icon ui-icon-plus">Add Blade</a>
+	          </li>
+			  <li class="stacking" id="pp81ID">
+				<img src="http://staging.radisys.com/z_includes/t-series-configurator/images/6206-pp81.png" alt="PP81" width="320" height="30"  />
+				<a href="link/to/trash/script/when/we/have/js/off" title="Add This" class="ui-icon ui-icon-plus">Add Blade</a>
+			  </li>
+	        </ul>
+	    </div>
+	    
+	    <div id="xe100Main">
+	   	 	<h5 class="ui-widget-header">xe100</h5>
+	        <ul id="xe100" class="xe100 ui-helper-reset ui-helper-clearfix">
+	          <li class="stacking" id="xe100ID" name="xe100">
+	            <img src="http://staging.radisys.com/z_includes/t-series-configurator/images/6206-xe100.png" alt="PP81" width="320" height="30"  />
+	            <a href="javascript:addBladeToChassis(this)" title="Add This" class="ui-icon ui-icon-plus">Add Blade</a>
+	          </li>
+	          <li class="stacking" id="xe100ID">
+	            <img src="http://staging.radisys.com/z_includes/t-series-configurator/images/6206-xe100.png" alt="PP81" width="320" height="30"  />
+	            <a href="javascript:addBladeToChassis(this)" title="Add This" class="ui-icon ui-icon-plus">Add Blade</a>
+	          </li>
+	          <li class="stacking" id="xe100ID">
+	            <img src="http://staging.radisys.com/z_includes/t-series-configurator/images/6206-xe100.png" alt="PP81" width="320" height="30"  />
+	            <a href="javascript:addBladeToChassis(this)" title="Add This" class="ui-icon ui-icon-plus">Add Blade</a>
+	          </li>
+	          <li class="stacking" id="xe100ID">
+	            <img src="http://staging.radisys.com/z_includes/t-series-configurator/images/6206-xe100.png" alt="PP81" width="320" height="30"  />
+	            <a href="javascript:addBladeToChassis(this)" title="Add This" class="ui-icon ui-icon-plus">Add Blade</a>
+	          </li>
+	        	<li class="stacking" id="xe100ID">
+	        		<img src="http://staging.radisys.com/z_includes/t-series-configurator/images/6206-xe100.png" alt="PP81" width="320" height="30"  />
+	        		<a href="javascript:addBladeToChassis(this)" title="Add This" class="ui-icon ui-icon-plus">Add Blade</a>
+	        	</li>	
+	        </ul>
+	    </div>
+	    
+	    <div id="a7240Main">
+	   	 	<h5 class="ui-widget-header">7240</h5>
+	        <ul id="a7240" class="a7240 ui-helper-reset ui-helper-clearfix">
+	          <li class="stacking" id="a7240ID" name="a7240">
+	            <img src="http://staging.radisys.com/z_includes/t-series-configurator/images/6206-7240.png" alt="PP81" width="320" height="30"  />
+	            <a href="javascript:addBladeToChassis(this)" title="Add This" class="ui-icon ui-icon-plus">Add Blade</a>
+	          </li>
+	          <li class="stacking" id="a7240ID">
+	            <img src="http://staging.radisys.com/z_includes/t-series-configurator/images/6206-7240.png" alt="PP81" width="320" height="30"  />
+	            <a href="javascript:addBladeToChassis(this)" title="Add This" class="ui-icon ui-icon-plus">Add Blade</a>
+	          </li>
+	          <li class="stacking" id="a7240ID">
+	            <img src="http://staging.radisys.com/z_includes/t-series-configurator/images/6206-7240.png" alt="PP81" width="320" height="30"  />
+	            <a href="javascript:addBladeToChassis(this)" title="Add This" class="ui-icon ui-icon-plus">Add Blade</a>
+	          </li>
+	          <li class="stacking" id="a7240ID">
+	            <img src="http://staging.radisys.com/z_includes/t-series-configurator/images/6206-7240.png" alt="PP81" width="320" height="30"  />
+	            <a href="javascript:addBladeToChassis(this)" title="Add This" class="ui-icon ui-icon-plus">Add Blade</a>
+	          </li>
+	        	<li class="stacking" id="a7240ID">
+	        		<img src="http://staging.radisys.com/z_includes/t-series-configurator/images/6206-7240.png" alt="PP81" width="320" height="30"  />
+	        		<a href="javascript:addBladeToChassis(this)" title="Add This" class="ui-icon ui-icon-plus">Add Blade</a>
+	        	</li>
+	        </ul>
+	    </div>
+	 
+	     <div id="z4648Main">
+	   	 	<h5 class="ui-widget-header">4648</h5>
+	        <ul id="z4648" class="z4648 ui-helper-reset ui-helper-clearfix">
+	          <li class="stacking" id="z4648ID" name="z4648">
+	            <img src="http://staging.radisys.com/z_includes/t-series-configurator/images/6206-4648.png" alt="4648" width="320" height="30"  />
+	            <a href="javascript:addBladeToChassis(this)" title="Add This" class="ui-icon ui-icon-plus">Add Blade</a>
+	          </li>
+	          <li class="stacking" id="z4648ID">
+	            <img src="http://staging.radisys.com/z_includes/t-series-configurator/images/6206-4648.png" alt="4648" width="320" height="30"  />
+	            <a href="javascript:addBladeToChassis(this)" title="Add This" class="ui-icon ui-icon-plus">Add Blade</a>
+	          </li>
+	          <li class="stacking" id="z4648ID">
+	            <img src="http://staging.radisys.com/z_includes/t-series-configurator/images/6206-4648.png" alt="4648" width="320" height="30"  />
+	            <a href="javascript:addBladeToChassis(this)" title="Add This" class="ui-icon ui-icon-plus">Add Blade</a>
+	          </li>
+	          <li class="stacking" id="z4648ID">
+	            <img src="http://staging.radisys.com/z_includes/t-series-configurator/images/6206-4648.png" alt="4648" width="320" height="30"  />
+	            <a href="javascript:addBladeToChassis(this)" title="Add This" class="ui-icon ui-icon-plus">Add Blade</a>
+	          </li>
+	        	<li class="stacking" id="z4648ID">
+	        		<img src="http://staging.radisys.com/z_includes/t-series-configurator/images/6206-4648.png" alt="4648" width="320" height="30"  />
+	        		<a href="javascript:addBladeToChassis(this)" title="Add This" class="ui-icon ui-icon-plus">Add Blade</a>
+	        	</li>
+	        </ul>
+	    </div>
+		<br clear="all">
+	</div>
+	
+    <ul id="optionalSoftware" class="optionalSoftware">
+		<li class="label">Optional Software</li>
+        <li id="optionalSoftware1" name="optionalSoftware1"><img src="http://staging.radisys.com/z_includes/t-series-configurator/images/opt-soft-statistical-load-balancing.png" width="201" height="28" alt="" border="0" /><a href="javascript:addBladeToChassis(this)" title="Add This" class="ui-icon ui-icon-plus">Add Blade</a></li>
+        <li id="optionalSoftware2" name="optionalSoftware2"><img src="http://staging.radisys.com/z_includes/t-series-configurator/images/opt-soft-statistical-backplane-redundancy.png" width="201" height="28" alt="" border="0" /><a href="javascript:addBladeToChassis(this)" title="Add This" class="ui-icon ui-icon-plus">Add Blade</a></li>
+    </ul>
+
+</div> <!-- bladeContainer -->
+
+<div id="chassisContainer">
+
+    <div id="chassis1" class="ui-widget-content ui-state-default" ></div>
+    <div id="chassis2" class="ui-widget-content ui-state-default" ></div>
+    <div id="optionalSoftwareChassisList" class="ui-widget-content ui-state-default" ></div>
+
+</div>
+
+<div id="pageCopy">
+	<hr size="0" noshade style="border: 0; height: 0; border-top: 5px solid  #d9e4ea; border-bottom: 1px solid #d9e4ea;" />
+
+	<p>
+	<span style="font-size: 26px;">Services & Software</span><br>
+	Included with all Systems
+	</p>
+
+	<p>
+	<b>System Integration</b>
+	<ul>
+		<li><b>Functional Verification</b>
+       		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></li>
+		<li><b>System Software Verification</b>
+       		<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.</p></li>
+		<li><b>Certifications (Thermal, Safety and EMI)</b>
+       		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></li>
+	</ul>
+	</p>
+	
+	<p>
+	<b>Platform Services</b>
+	</p>
+	
+	<p>
+	<b>System Software</b>
+	<ul>
+		<li><b>Shelf Management</b>
+       		<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.</p></li>
+		<li><b>Single Point Software Upgrade</b>
+       		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore white paper et dolore magna aliqua. Lorem ipsum dolor sit amet</p></li>
+	</ul>
+	</p>
+	
+	<a href="http://www.radisys.com/services/"><img src="http://staging.radisys.com/z_includes/t-series-configurator/images/btn-services.png" alt="" width="134" height="34" border="0" style="margin: 10px 0px 20px 0px;" /></a>
+	
+</div>
+
+<div id="chassisText" class="ui-widget-content ui-state-default">
+
+	<div class="title">Current Configuration</div>
+	<br clear="all">
+	<ul id="chassis2340List"><li>1 2340</li></ul>
+	<ul id="chassisPP81List"></ul>
+	<ul id="chassisxe100List"></ul>
+	<ul id="chassis7240List"></ul>
+	<ul id="chassis4648List"></ul>
+	<ul id="chassisOptionalSoftware1List"></ul>
+	<ul id="chassisOptionalSoftware2List"></ul>
+	
+	<br clear="all">
+	<div id="submitButton"><a href="#" id="submitConfig"><img src="http://staging.radisys.com/z_includes/t-series-configurator/images/btn-submit.png" width="152" height="47" alt="" border="0"></a></div>
+
+</div>
+
+
+</div><!-- End - mainContainer -->
+

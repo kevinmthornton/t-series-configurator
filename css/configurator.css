@@ -1,0 +1,656 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	margin: 0;
+    font-family: "Trebuchet MS", "Helvetica", "Arial",  "Verdana", "sans-serif";
+	font-size: 62.5%;
+}
+
+li {
+	list-style:none;
+}
+
+#mainContainerSelect {
+	margin: 0;
+	padding-top: 10px;
+    width: 925px;
+    background: #fff;
+    border: 0px solid #0f0;
+}
+
+#mainContainer {
+	margin: 0;
+	padding-top: 10px;
+    width: 925px;
+    min-height: 1250px;
+    background: #fff;
+    border: 0px solid #0f0;
+}
+
+#instruction1 {
+	z-index: 99;
+	position:relative;
+	left: 0px;
+	top: 0px;
+    font-size: 24px;
+	color: #333;
+	font-weight: bold;
+	text-align: center;
+	width: 100%;
+	height: 105px;
+	margin-top: 5px;
+	margin-left: 0px auto;
+	margin-right: 0px auto;
+	padding: 5px 0px 5px 0px;
+	background: url(/z_includes/t-series-configurator/images/landing-arrows.png) top center no-repeat;
+	overflow: visible;
+}
+#instruction2 {
+	float: left;
+	font-size: 18px;
+	color: #333;
+	font-weight: bold;
+	text-align: center;
+	width: 370px;
+	margin: 0px auto;
+	padding: 0px 0px 14px 25px;
+}
+
+#instruction3 {
+	float: right;
+	font-size: 18px;
+	color: #333;
+	font-weight: bold;
+	text-align: center;
+	width: 400px;
+	padding-right: 45px;
+}
+
+#bladeContainer {
+	float:left;
+	position:relative;
+	left: 20px;
+	width: 433px;
+	height: 587px;
+	background: url(/z_includes/t-series-configurator/images/gray-box-arrow-large-form.png) no-repeat;
+}
+
+#bladeStacks {
+	position:relative;
+	float:left;
+	top: 30px;
+	left: 58px;	
+	height: 370px;
+	overflow: hidden;
+}
+
+#pp81Main { float:left; z-index: 9; width:45px; height: 400px; min-height: 12em; margin: 0px 26px 0px 0px; }
+#pp81 {width:45px; min-height: 12em;}
+.pp81.custom-state-active { background: #eee; }
+.pp81 li { float: left; width: 30px; padding: 0; margin: 15px 0px 0px 0px; text-align: center; }
+.pp81 li h5 { margin: 0 0 0.4em; cursor: move; }
+.pp81 li a { float: right; }
+.pp81 li a.ui-icon-zoomin { float: left; }
+.pp81 li img { width: 100%; cursor: move; }
+#pp81Description {
+	position:absolute;
+	z-index: 99;
+	left: 43px;
+	top: 50px;
+	visibility:hidden;
+	background:#d9e4ea;
+	width:300px;
+	padding:10px;	
+	font-size: 12px;
+	/*rounded corners*/
+	border-radius: 8px; 
+	-moz-border-radius: 8px; 
+	-webkit-border-radius: 8px; 
+	border: 2px solid #eeeeff;
+}
+
+#pp81Description h3 {
+	color:#FFF;
+	font-size:18px;
+}
+
+#pp81Description ul li {
+	color:#FFF;
+	font-size:12px;
+    position: relative;
+    vertical-align: top;
+    top: -.7em;   
+}
+
+#xe100Main { float: left; z-index: 9; width:45px; height: 400px; min-height: 12em; margin: 0px 26px 0px 0px; }
+#xe100 {width: 40px; min-height: 12em; }
+.xe100.custom-state-active { background: #eee; }
+.xe100 li { float: left; width: 30px; padding: 0; margin: 15px 0px 0px 0px; text-align: center; }
+.xe100 li h5 { margin: 0 0 0.4em; cursor: move; }
+.xe100 li a { float: right; }
+.xe100 li a.ui-icon-zoomin { float: left; }
+.xe100 li img { width: 100%; cursor: move; }
+
+#xe100Description {
+	position:absolute;
+	z-index: 99;
+	left: 43px;
+	top: 50px;
+	visibility:hidden;
+	background:#d9e4ea;
+	width:300px;
+	padding:10px;
+	font-size: 12px;
+	/*rounded corners*/
+	border-radius: 8px; 
+	-moz-border-radius: 8px; 
+	-webkit-border-radius: 8px; 
+	border: 2px solid #eeeeff;
+}
+
+#xe100Description h3 {
+	color:#FFF;
+	font-size:18px;
+}
+
+#xe100Description ul li {
+	color:#FFF;
+	font-size:12px;
+    position: relative;
+    vertical-align: top;
+    top: -.7em;   
+}
+
+/* ======== 7240 =========== */
+/* classes and id's MUST beging with a letter. The 7240 is an "a" while the 4648 is "z"*/
+#a7240Main { float: left; z-index: 9; width:45px; height: 400px; min-height: 12em; margin: 0px 26px 0px 0px; }
+#a7240 { width: 40px; min-height: 12em;}
+.a7240.custom-state-active { background: #eee; }
+.a7240 li { float: left; width: 30px; padding: 0; margin: 15px 0px 0px 0px; text-align: center; }
+.a7240 h5 {  margin: 0px 30px 0px 0px; cursor: move; }
+.a7240 li a { float: right; }
+.a7240 li a.ui-icon-zoomin { float: left; }
+.a7240 li img { width: 100%; cursor: move; }
+
+#a7240Description {
+	position:absolute;
+	z-index: 99;
+	left: 43px;
+	top: 50px;
+	visibility:hidden;
+	background:#d9e4ea;
+	width:300px;
+	padding:10px;
+	font-size: 12px;
+	/*rounded corners*/
+	border-radius: 8px; 
+	-moz-border-radius: 8px; 
+	-webkit-border-radius: 8px; 
+	border: 2px solid #eeeeff;
+}
+
+#a7240Description h3 {
+	color:#FFF;
+	font-size:18px;
+}
+
+#a7240Description ul li {
+	color:#FFF;
+	font-size:12px;
+    position: relative;
+    vertical-align: top;
+    top: -.7em;   
+}
+
+/* ======== 4648 =========== */
+/* classes and id's MUST beging with a letter. The 4648 is "z"*/
+#z4648Main { float: left; z-index: 9; width:45px; height: 400px; min-height: 12em; margin: 0px 26px 0px 0px; }
+#z4648 { width: 40px; min-height: 12em;}
+.z4648.custom-state-active { background: #eee; }
+.z4648 li { float: left; width: 30px; padding: 0; margin: 15px 0px 0px 0px; text-align: center; }
+.z4648 h5 {  margin: 0px 30px 0px 0px; cursor: move; }
+.z4648 li a { float: right; }
+.z4648 li a.ui-icon-zoomin { float: left; }
+.z4648 li img { width: 100%; cursor: move; }
+
+#z4648Description {
+	position:absolute;
+	z-index: 99;
+	left: 43px;
+	top: 50px;
+	visibility:hidden;
+	background:#d9e4ea;
+	width:300px;
+	padding:10px;
+	font-size: 12px;
+	/*rounded corners*/
+	border-radius: 8px; 
+	-moz-border-radius: 8px; 
+	-webkit-border-radius: 8px; 
+	border: 2px solid #eeeeff;
+}
+
+#z4648Description h3 {
+	color:#FFF;
+	font-size:18px;
+}
+
+#z4648Description ul li {
+	color:#FFF;
+	font-size:12px;
+    position: relative;
+    vertical-align: top;
+    top: -.7em;   
+}
+
+/*====== optional software ======== */
+#optionalSoftware {
+	float: left;
+	width: 271px;
+	height: 128px;
+	padding: 0px 0px 0px 0px;
+	margin: 45px 0px 0px 47px;
+	/*rounded corners*/
+	border-radius: 8px; 
+	-moz-border-radius: 8px; 
+	-webkit-border-radius: 8px; 
+	border: 2px solid #ffffff;
+}
+#optionalSoftware .label {
+	font-size: 16px;
+	color: #a1011a;
+	font-weight: bold;
+	text-align: center;
+	width: 225px;
+	height: 28px;
+	margin: 0px auto;
+	padding: 15px 0px 5px 0px;
+}
+
+#optionalSoftware1 { width: 225px; height: 28px; margin: 0px auto; padding: 0px 0px 10px 0px; }
+#optionalSoftware1 img { float: right; }
+
+#optionalSoftware2 { width: 225px; height: 28px; margin: 0px auto; padding: 0px 0px 10px 0px; }
+#optionalSoftware2 img { float: right; }
+
+#optionalSoftwareChassisList { width: 470px; height: 1px; padding: 0px 0px 0px 0px; margin-left: auto; margin-right: auto; }
+#optionalSoftwareChassisList li { margin: 0; float: left; list-style-type: none; display: inline; padding-right: 10px; }
+#optionalSoftwareChassisList li a { text-decoration: none; }
+#optionalSoftwareChassisList li .ui-icon { float: left; line-height: 0px; padding: 0px 0px 0px 0px; margin: 2px -10px 0px 0px; }
+.optionalSoftware li img { cursor: move; }
+
+#chassisContainer {
+	background:url(/z_includes/t-series-configurator/images/6214-2340.jpg);
+	background-repeat:no-repeat;
+	float:right;
+	width: 457px;
+	height: 583px;
+    margin: 0px 15px 0px 0px;
+	/* background-color:#309; */
+}
+
+#chassis1 { float: left; width: 205px; height: 395px; padding: 0px 0px 0px 0px; margin: 130px 0px 0 25px; }
+#chassis1 h4 { line-height: 0px; padding: 0px 0px 0px 0px; margin: 0; }
+#chassis1 h4 .ui-icon { float: left; line-height: 0px; padding: 0px 0px 0px 0px; margin: 0; }
+#chassis1 .pp81 h5 { display: none; line-height: 0px; padding: 0px 0px 0px 0px; margin: 0;}
+
+#chassis2 { float: right; width: 205px; height: 395px; padding: 0px 0px 0px 21px; margin: 130px 0px 0px 0px; }
+#chassis2 h4 { line-height: 0px; padding: 0px 0px 0px 0px; margin: 0; }
+#chassis2 h4 .ui-icon { float: left; line-height: 0px; padding: 0px 0px 0px 0px; margin: 0; }
+#chassis2 .pp81 h5 { display: none; line-height: 0px; padding: 0px 0px 0px 0px; margin: 0; }
+
+
+/* the general text description of the page */
+#pageCopy {
+	position:absolute; 
+    left: 25px;
+	top: 676px;
+    width: 400px;
+}
+#pageCopy p {
+	color: #222;
+	font-size: 15px;
+	margin-top: 20px;
+}
+#pageCopy ul {
+	margin: 0px 0px 0px 18px;
+}
+#pageCopy li {
+	margin: 0px 0px 0px 0px;
+	list-style: square;
+	font-size: 13px;
+}
+#pageCopy li p {
+	margin: 0px 0px 0px 0px;
+	font-size: 13px;
+	line-height: 120%;
+}
+
+/* Landing page Preconfig box */ 
+#containerPreconfig {
+	z-index: 0;
+	position:relative; 
+	float: left;
+    left: 0px;
+	top: -35px;
+    width:440px;
+	height:263px;
+	/*gradient bg*/
+	background: #d2e1e9; /* Old browsers */
+	background: -moz-linear-gradient(top,  #eef2f5 0%, #d2e1e9 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eef2f5), color-stop(100%,#d2e1e9)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #eef2f5 0%,#d2e1e9 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #eef2f5 0%,#d2e1e9 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #eef2f5 0%,#d2e1e9 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #eef2f5 0%,#d2e1e9 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eef2f5', endColorstr='#d2e1e9',GradientType=0 ); /* IE6-9 */
+    /*rounded corners*/
+	border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	border: 1px solid #ccc;
+}
+#containerCustom {
+	z-index: 0;
+	position:relative; 
+    float: right;
+	left: 0px;
+	top: -35px;
+    width:440px;
+	height:263px;
+	/*gradient bg*/
+	background: #eadfd9; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f5f0ed 0%, #e9cdcd 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f5f0ed), color-stop(100%,#e9cdcd)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f5f0ed 0%,#e9cdcd 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f5f0ed 0%,#e9cdcd 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f5f0ed 0%,#e9cdcd 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f5f0ed 0%,#e9cdcd 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f0ed', endColorstr='#e9cdcd',GradientType=0 ); /* IE6-9 */
+    /*rounded corners*/
+	border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	border: 1px solid #ccc;
+}
+
+#containerPreconfig h1, #containerCustom h1 {
+	font-size: 24px;
+	font-weight: bold;
+	color: #004c6c;
+	text-align: center;
+	padding-top: 20px;
+}
+
+#containerPreconfigList, #containerCustomList {
+	list-style-type: none;
+	padding: 0px;
+	vertical-align: top;
+	margin: 40px 0px 0px 25px;
+}
+#containerPreconfigListChild {
+	list-style-type: none;
+	padding: 0px;
+	vertical-align: top;
+	margin: 0px 0px 0px 20px;
+}
+#containerPreconfigList li, #containerCustomList li, #containerPreconfigListChild li {
+	font-size: 17px;
+	color: #333;
+	font-weight: normal;
+	line-height: 130%;
+	width: auto; height: auto; max-width: none; max-height: none; position: static; float: none; overflow: visible; zoom: normal; writing-mode: lr-tb;
+	vertical-align: top;
+	background: url(/z_includes/t-series-configurator/images/bullet-arrow.png) no-repeat 3px 5px;
+	padding: 0px 0px 0px 20px;
+	margin: 0px 0px 0px 0px; 
+}
+#containerPreconfigList li a, #containerCustomList li a, #containerPreconfigListChild li a {
+	color: #333;
+	text-decoration: none;
+	vertical-align: top;
+}
+#containerPreconfigList li a:hover, #containerCustomList li a:hover, #containerPreconfigListChild li a:hover {
+	color: #333;
+	text-decoration: underline;
+	vertical-align: top;
+}
+
+/* the text that shows the configuration */ 
+#chassisText {
+	position:absolute; 
+    left: 513px;
+	top: 680px;
+    width:342px;
+	height:380px;
+	/*gradient bg*/
+	background: #f1f6f9; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f1f6f9 0%, #d2dee5 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f1f6f9), color-stop(100%,#d2dee5)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f1f6f9 0%,#d2dee5 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f1f6f9 0%,#d2dee5 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f1f6f9 0%,#d2dee5 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f1f6f9 0%,#d2dee5 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1f6f9', endColorstr='#d2dee5',GradientType=0 ); /* IE6-9 */
+    /*rounded corners*/
+	border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	border: 2px solid #ccc;
+}
+	
+#chassisText .title {
+	float: left;
+	font-size: 22px;
+	color: #004c6c;
+	font-weight: bold;
+	text-align: center;
+	width: 100%;
+	margin: 0px auto;
+	padding: 30px 0px 30px 0px;
+	}
+#chassis2340List, #chassisPP81List, #chassisxe100List, #chassis7240List, #chassis4648List, #chassisOptionalSoftware1List, #chassisOptionalSoftware2List {
+	font-size: 18px;
+	color: #333;
+	text-align: center;
+	width: 100%;
+	margin: 0px 0px 0px -5px;
+	padding: 0px 0px 0px -10px;
+	}
+	
+#submitButton {
+	width: 152px;
+    height: 47px;
+    position:absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 95px;
+	top: 295px;    
+}
+#submitButton a {
+	width: 152px;
+    height: 47px;
+}  
+
+/* Submit Page Styles */ 
+#dataSheetBox {
+	float:left;
+    margin: 0px 0px 0px 70px;
+    width:345px;
+	min-height:360px;
+	/*gradient bg*/
+	background: #f1f6f9; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f1f6f9 0%, #d2dee5 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f1f6f9), color-stop(100%,#d2dee5)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f1f6f9 0%,#d2dee5 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f1f6f9 0%,#d2dee5 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f1f6f9 0%,#d2dee5 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f1f6f9 0%,#d2dee5 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1f6f9', endColorstr='#d2dee5',GradientType=0 ); /* IE6-9 */
+    /*rounded corners*/
+	border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	border: 2px solid #ccc;
+}
+
+#dataSheetBoxList {
+    text-align:center;
+	color: #333;
+	font-size: 18px; 
+	line-height: 150%;
+	margin: 0 auto;
+	padding: 30px 0px 20px 0px;
+}
+
+#submissionFormBox {
+	float:right;
+    margin: 0px 70px 0px 0px;
+    width:345px;
+}
+
+#dataSheetBox h1, #submissionFormBox h1 {
+	color: #004c6c;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.formLabel {
+    float:left; 
+	color: #000000;
+	font-size: 18px; 
+}
+
+#submissionFormBox input.formField {
+	float:right;
+    background: #fff;
+    width: 270px;
+    height: 20px;
+    padding: 5px;
+	margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 0;
+    border: 1px solid #ddd;
+    border-radius: 0;
+    -webkit-appearance: none;
+}
+
+.formRegion {
+   width: 282px;
+   height: 34px;
+   overflow: hidden;
+   background: url(/z_includes/t-series-configurator/images/down_arrow_select.jpg) no-repeat right #fff;
+   float:right;
+   border: 0px solid #ccc;
+}
+
+.formRegion select {
+   background: transparent;
+   width: 282px;
+   padding: 5px;
+   font-size: 14px;
+   line-height: 1;
+   border: 1px solid #ddd;
+   border-radius: 0;
+   height: 34px;
+   -webkit-appearance: none;
+}
+	
+#sendButton {
+	width: 152px;
+    height: 47px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 92px;
+	top: 275px;    
+}
+
+#sendButton a {
+	width: 152px;
+    height: 47px;
+}  
+
+/* the list on the chassis that holds the blades*/
+.chassisBlades li { float: left; width: 30px; margin-left:-2px; list-style:none;}
+.chassisBlades li img { width: 100%; cursor: move; }
+
+/* whether or not to place the blades on top of each other
+stacking is for the list to the left
+nostack is for when it is on the chassis
+*/
+.stacking {position:absolute;}
+.nostack {position:relative;}
+
+// from jQuery UI CSS file
+
+.ui-helper-reset {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	line-height: 1.3;
+	text-decoration: none;
+	font-size: 100%;
+	list-style: none;
+}
+
+.ui-helper-clearfix:before,
+.ui-helper-clearfix:after {
+	content: "";
+	display: table;
+}
+.ui-helper-clearfix:after {
+	clear: both;
+}
+.ui-helper-clearfix {
+	min-height: 0; /* support: IE7 */
+}
+
+.ui-widget-header {
+	/* margin: 20px 0px 5px 0px; */
+	border: 0px solid #aaaaaa/*{borderColorHeader}*/;
+	background: #cccccc/*{bgColorHeader}*/ /*url(images/ui-bg_highlight-soft_75_cccccc_1x100.png)*//*{bgImgUrlHeader}*/ 50%/*{bgHeaderXPos}*/ 50%/*{bgHeaderYPos}*/ repeat-x/*{bgHeaderRepeat}*/; 
+	color: #222222/*{fcHeader}*/;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	position:relative;
+	top: 0px;
+	left: 0px;	
+}
+.ui-widget-header a {
+	color: #222222/*{fcHeader}*/;
+}
+
+.ui-widget-content {
+	border: 0px solid #f00/*{borderColorContent}*/;
+	/* background: #ffffff*/ /*{bgColorContent}*/ /*url(images/ui-bg_flat_75_ffffff_40x100.png)*/ /*{bgImgUrlContent}*/ /*50%*/ /*{bgContentXPos}*/ /*50%*/ /*{bgContentYPos}*/ /*repeat-x*/ /*{bgContentRepeat}*/;
+	color: #222222/*{fcContent}*/;
+}
+.ui-widget-content a {
+	color: #222222/*{fcContent}*/;
+}
+
+.ui-icon {
+	display: block;
+	text-indent: -99999px;
+	background-repeat: no-repeat;
+}
+
+/* this is the way to do sprites, yoiu position the background to the section of the image that you want to show.
+	here is the original image: http://code.jquery.com/ui/1.10.0/themes/base/images/ui-icons_222222_256x240.png
+	.ui-icon-plus { background-position: -16px -128px; }
+*/
+.ui-icon-plus { 
+	background-image: url(/z_includes/t-series-configurator/images/btn-add.png); 
+	width:23px;
+	height:23px;
+}
+.ui-icon-minus { 
+	position:relative;
+	width:23px;
+	height:23px;
+	background-image: url(/z_includes/t-series-configurator/images/btn-delete.png); 
+	top: -25px;
+}
